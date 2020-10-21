@@ -18,18 +18,15 @@ This is just a very basic example for how to provision a droplet in DigitalOcean
 
 It's adapted from a Rancher example.
 
-![alt text](./diagram/api.png)
-
 Include **module.compute.tf** this repository as a module in your existing terraform code:
 
 ```terraform
 module "compute" {
   source      = "JamesWoolfenden/compute/digitalocean"
-  version     = "0.0.4"
+  version     = "0.0.2"
   docker_cmd="docker run -d --restart=unless-stopped -p 8080:8080 rancher/server:${var.rancher_version_tag}"
 }
-
-
+```
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Requirements
