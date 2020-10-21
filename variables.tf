@@ -19,5 +19,5 @@ variable "do_droplet_size" {
 }
 
 variable "image" {
-  default= "ubuntu-16-04-x64"
+  default = "ubuntu-16-04-x64"
 }

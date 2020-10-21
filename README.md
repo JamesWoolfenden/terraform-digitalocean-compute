@@ -34,26 +34,36 @@ module "compute" {
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Requirements
 
-No requirements.
+| Name | Version |
+|------|---------|
+| terraform | >= 0.13 |
+| digitalocean | 2.0.0 |
+| template | 2.2.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| aws | n/a |
+| digitalocean | 2.0.0 |
+| template | 2.2.0 |
 
 ## Inputs
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| common\_tags | This is to help you add tags to your cloud objects | `map` | n/a | yes |
-| kms\_key\_arn | n/a | `string` | n/a | yes |
+| do\_droplet\_size | n/a | `string` | `"2gb"` | no |
+| do\_region | n/a | `string` | `"lon1"` | no |
+| docker\_cmd | n/a | `any` | n/a | yes |
+| image | n/a | `string` | `"ubuntu-16-04-x64"` | no |
+| instance\_type | n/a | `string` | `"node"` | no |
+| node\_count | n/a | `number` | `1` | no |
 
 ## Outputs
 
 | Name | Description |
 |------|-------------|
-| workgroup | n/a |
+| instances | n/a |
+| server-ip | n/a |
 
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 

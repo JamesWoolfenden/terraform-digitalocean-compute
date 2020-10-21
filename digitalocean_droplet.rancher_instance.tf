@@ -9,4 +9,3 @@ resource "digitalocean_droplet" "instance" {
   private_networking = false
   user_data          = data.template_file.user_data.rendered
 }
-
