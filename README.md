@@ -16,7 +16,7 @@ It's 100% Open Source and licensed under the [APACHE2](LICENSE).
 This is just a very basic example for how to provision a droplet in DigitalOcean, It requires a Personal Access token that is added as an environment variable:
 **DIGITALOCEAN_ACCESS_TOKEN**
 
-It's adapted from a Rancher example.
+Inspired by a Rancher example.
 
 Include **module.compute.tf** this repository as a module in your existing terraform code:
 
