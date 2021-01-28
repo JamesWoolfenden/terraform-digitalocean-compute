@@ -2,8 +2,12 @@
 
 [![Build Status](https://github.com/JamesWoolfenden/terraform-digitalocean-compute/workflows/Verify%20and%20Bump/badge.svg?branch=master)](https://github.com/JamesWoolfenden/terraform-digitalocean-compute)
 [![Latest Release](https://img.shields.io/github/release/JamesWoolfenden/terraform-digitalocean-compute.svg)](https://github.com/JamesWoolfenden/terraform-digitalocean-compute/releases/latest)
+[![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/JamesWoolfenden/terraform-aws-appsync.svg?label=latest)](https://github.com/JamesWoolfenden/terraform-aws-appsync/releases/latest)
+![Terraform Version](https://img.shields.io/badge/tf-%3E%3D0.14.0-blue.svg)
+[![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/JamesWoolfenden/terraform-aws-appsync/cis_aws)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=JamesWoolfenden%2Fterraform-aws-appsync&benchmark=CIS+AWS+V1.2)
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
 [![checkov](https://img.shields.io/badge/checkov-verified-brightgreen)](https://www.checkov.io/)
+[![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/jameswoolfenden/terraform-aws-appsync/general)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=JamesWoolfenden%2Fterraform-aws-appsync&benchmark=INFRASTRUCTURE+SECURITY)
 
 Terraform module -
 
@@ -31,18 +35,14 @@ module "compute" {
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Requirements
 
-| Name | Version |
-|------|---------|
-| terraform | >= 0.13 |
-| digitalocean | 2.0.0 |
-| template | 2.2.0 |
+No requirements.
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| digitalocean | 2.0.0 |
-| template | 2.2.0 |
+| digitalocean | n/a |
+| template | n/a |
 
 ## Inputs
 
@@ -84,7 +84,7 @@ Please use the [issue tracker](https://github.com/JamesWoolfenden/terraform-digi
 
 ## Copyrights
 
-Copyright © 2020 James Woolfenden
+Copyright © 2020-2021 James Woolfenden
 
 ## License
 
